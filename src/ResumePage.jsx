@@ -2,17 +2,15 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const ITEMS = [
-  { id: "i", badge: "I", title: "EDUCATION", subtitle: "University / Coursework", rank: 3 },
-  { id: "ii", badge: "II", title: "SKILLS", subtitle: "Frontend / Design / UI", rank: 4 },
-  { id: "iii", badge: "III", title: "PROJECTS", subtitle: "Featured Work", rank: 5 },
-  { id: "iv", badge: "IV", title: "EXPERIENCE", subtitle: "Internships / Roles", rank: 2 },
+  { id: "i", badge: "I", title: "EDUCATION", subtitle: "Estudiante de la UMSS", rank: 3 },
+  { id: "ii", badge: "II", title: "SKILLS", subtitle: "Backend / Redes / Videogames", rank: 4 },
+  { id: "iii", badge: "III", title: "PROJECTS", subtitle: "SERVINEO / PROMPTDEUS (En Progreso)", rank: 5 },
 ];
 
 const EDUCATION_ROWS = [
-  { index: "01", title: "General Education", status: "Complete" },
-  { index: "02", title: "Computer Science Core", status: "In Progress" },
-  { index: "03", title: "Elective Track", status: "Queued" },
-  { index: "04", title: "Capstone Prep", status: "Pending" },
+  { index: "01", title: "Bachillerato", status: "Completado" },
+  { index: "02", title: "Licenciatura en Ingenieria de Sistemas", status: "En Progreso" },
+  { index: "03", title: "Especializacion en Ciberseguridad", status: "Queued" },
 ];
 
 export default function ResumePage({ src }) {
@@ -453,14 +451,6 @@ export default function ResumePage({ src }) {
               ))}
             </div>
 
-            <div className="resume-detail-bottom">
-              <div className="resume-detail-bottom-title">DETAILS</div>
-              <div className="resume-detail-bullets">
-                <div className="resume-detail-bullet">- Maintain progress across required classes and supporting work.</div>
-                <div className="resume-detail-bullet">- Track portfolio-ready projects tied to coursework and labs.</div>
-                <div className="resume-detail-bullet">- Keep materials prepared for internships, research, and review.</div>
-              </div>
-            </div>
           </div>
         )}
 
