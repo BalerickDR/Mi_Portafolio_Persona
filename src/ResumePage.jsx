@@ -451,6 +451,14 @@ export default function ResumePage({ src }) {
               ))}
             </div>
 
+            <div className="resume-detail-bottom">
+              <div className="resume-detail-bottom-title">Detalles</div>
+              <div className="resume-detail-bullets">
+                <div className="resume-detail-bullet">- Maintain progress across required classes and supporting work.</div>
+                <div className="resume-detail-bullet">- Track portfolio-ready projects tied to coursework and labs.</div>
+                <div className="resume-detail-bullet">- Keep materials prepared for internships, research, and review.</div>
+              </div>
+            </div>
           </div>
         )}
 
